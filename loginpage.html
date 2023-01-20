@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="loginpage.css">
+  </head>
+  <body>
+
+    <section class="header">
+        <h1 id="Logo">Leviosa</h1>
+    </section>
+    <br>
+    <section id="box">
+      <div id="whitebox">
+        <img id="LoginPage1" src="LoginPage1.jpg" alt="">
+        <div class="form">
+          <h1  id="WelcomeBack">Welcome Back!</h1>
+          <h3 id="KeepConnected">To keep connected with us please login with your personal information by email and password! 🔔 </h3>
+          <br>
+          <label for="email" id="email">Email</label>
+          <br>
+          <input id="EnterEmail" type="text" name="email" placeholder="Enter your email address" value="">
+          <br>
+          <br>
+          <label id="password" for="password">Password</label>
+          <br>
+          <input id="EnterPassword" type="password" name="password" placeholder="Enter your password" value="">
+          <button id="LogInNowBtn" type="button" name="button"><a href="home.html">LOG IN NOW</a></button>
+          <button id="CreateAccountBtn" type="button" name="button">CREATE ACCOUNT</button>
+          <input id="CheckBox" type="checkbox" name="CheckBox" value="">
+          <label id="RememberMe" for="RememberMe">Remember Me</label>
+          <a id="ForgotPassword" href="#">Forgot Your Password?</a>
+          <h5 id="JoinWith" >Or you can join with</h5>
+        </div>
+      </div>
+    </section>
+
+    <img id="googleIcon" src="google.png" width="20px" height="20px" alt="">
+    <img id="facebookIcon" src="facebook.png" width="20px" height="20px" alt="">
+    <img id="twitterIcon" src="twitter.png" width="28px" height="28px" alt="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script >
+    $(document).ready(function() {
+          $("#LogInNowBtn").click(function() {
+
+              var x = $("input:text").val();
+              if(x==""){
+                alert("Please insert your email!");
+                return false;
+              }
+
+              var x = $("input:password").val();
+              if(x==""){
+                alert("Please insert your password!");
+                return false;
+              }
+          });
+      });
+    </script>
+
+  </body>
+
+</html>

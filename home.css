@@ -1,0 +1,638 @@
+
+body {
+  font-size: 14px;
+}
+
+a{ color : black;}
+p{ color : white;}
+.header {
+  width: 100%;
+  height: 413px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 101px;
+  left: 2px;
+  overflow: hidden;
+}
+
+.leviosa {
+  width: 222px;
+  color: rgba(15,70,43,1);
+  position: absolute;
+  top: 0px;
+  left: 98px;
+  font-family: Lobster;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.home {
+  width: 40px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 38px;
+  left: 622px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.order {
+  width: 69px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 38px;
+  left: 716px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.contact {
+  width: 71px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 38px;
+  left: 794px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.cart {
+  width: 71px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 38px;
+  left: 1287px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.login {
+  width: 71px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 38px;
+  left: 1198px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.button_shopnow {
+  width: 211px;
+  height: 56px;
+  background: rgba(3,3,3,1);
+  opacity: 1;
+  position: absolute;
+  top: 543px;
+  left: 54px;
+  overflow: hidden;
+}
+.shopnow {
+  width: 143px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 559px;
+  left: 122px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.button_aboutus {
+  width: 211px;
+  height: 56px;
+  background: rgba(3,3,3,1);
+  opacity: 1;
+  position: absolute;
+  top: 2281px;
+  left: 583px;
+  overflow: hidden;
+}
+.readmore_aboutus {
+  width: 86px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2299px;
+  left: 646px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+
+.title_categories {
+  width: 174px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 712px;
+  left: 656px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.quote1 {
+  width: 586px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1863px;
+  left: 452px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.quote2 {
+  width: 586px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 2797px;
+  left: 457px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.desc_aboutus {
+  width: 704px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 2143px;
+  left: 583px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.title_aboutus {
+  width: 153px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 2079px;
+  left: 583px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.button_howtoorder {
+  width: 211px;
+  height: 56px;
+  background: rgba(3,3,3,1);
+  opacity: 1;
+  position: absolute;
+  top: 2657px;
+  left: 583px;
+  overflow: hidden;
+}
+.readmore_howtoorder {
+  width: 86px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2675px;
+  left: 646px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.desc_howtoorder {
+  width: 704px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 2519px;
+  left: 583px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.title_howtoorder {
+  width: 328px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 2455px;
+  left: 583px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_allcategories {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1245px;
+  left: 120px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_appetizers {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1245px;
+  left: 434px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_breakfast {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1245px;
+  left: 744px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_lunch {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1245px;
+  left: 1056px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_dinner {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1723px;
+  left: 120px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_beverages {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1723px;
+  left: 434px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_dessert {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1723px;
+  left: 744px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.desc_snacks {
+  width: 164px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1723px;
+  left: 1056px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.allcategories {
+  width: 262px;
+  height: 394px;
+  background: url("allcategories.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 831px;
+  left: 120px;
+  overflow: hidden;
+}
+.appetizers {
+  width: 262px;
+  height: 394px;
+  background: url("appetizers.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 831px;
+  left: 434px;
+  overflow: hidden;
+}
+.breakfast {
+  width: 262px;
+  height: 394px;
+  background: url("breakfast.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 831px;
+  left: 744px;
+  overflow: hidden;
+}
+.lunch {
+  width: 268px;
+  height: 394px;
+  background: url("lunch.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 831px;
+  left: 1056px;
+  overflow: hidden;
+}
+
+.dinner {
+  width: 262px;
+  height: 394px;
+  background: url("dinner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1309px;
+  left: 120px;
+  overflow: hidden;
+}
+.beverages {
+  width: 262px;
+  height: 394px;
+  background: url("beverages.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1309px;
+  left: 432px;
+  overflow: hidden;
+}
+.dessert {
+  width: 262px;
+  height: 394px;
+  background: url("dessert.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1309px;
+  left: 744px;
+  overflow: hidden;
+}
+.snacks {
+  width: 276px;
+  height: 395px;
+  background: url("snacks.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1309px;
+  left: 1056px;
+  overflow: hidden;
+}
+.aboutus {
+  width: 546px;
+  height: 264px;
+  background: url("aboutus.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2079px;
+  left: 0px;
+  overflow: hidden;
+}
+.howtoorder {
+  width: 546px;
+  height: 265px;
+  background: url("howtoorder.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2455px;
+  left: 0px;
+  overflow: hidden;
+}
+.connect {
+  width: 80px;
+  color: rgba(193,193,193,1);
+  position: absolute;
+  top: 3034px;
+  left: 484px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.resources {
+  width: 80px;
+  color: rgba(193,193,193,1);
+  position: absolute;
+  top: 3034px;
+  left: 700px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.about {
+  width: 80px;
+  color: rgba(193,193,193,1);
+  position: absolute;
+  top: 3034px;
+  left: 915px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.facebook {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3098px;
+  left: 485px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.pinterest {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3128px;
+  left: 485px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.youtube {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3158px;
+  left: 485px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.instagram {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3068px;
+  left: 485px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.track {
+  width: 127px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3098px;
+  left: 700px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.faqs {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3128px;
+  left: 700px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.privacy {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3158px;
+  left: 700px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.return {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3068px;
+  left: 700px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.story {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3068px;
+  left: 915px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.career {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3098px;
+  left: 915px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.press {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 3128px;
+  left: 915px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}

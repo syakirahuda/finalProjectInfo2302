@@ -1,0 +1,198 @@
+body {
+  background-image: url('LoginPageBackground.jpg');
+  background-size: cover;
+}
+a{ color : white;}
+#Logo {
+  position: absolute;
+  left: 130px;
+  top: 0px;
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #0F462B;
+}
+
+#box{
+  margin-top: 70px;
+  margin-left: 110px;
+  position: center;
+  width: 1150px;
+  height: 500px;
+  background: #FFFFFF;
+}
+
+#box img{
+  float: left;
+  position: absolute;
+
+  width: 350px;
+  height: 400px;
+  left: 170px;
+  top: 150px;
+}
+
+.form{
+  float: right;
+  padding-right: 100px;
+  padding-left: 450px;
+  padding-top: 40px;
+  font-family: 'Merriweather';
+  font-style: normal;
+}
+
+#WelcomeBack {
+  font-size: 25px;
+  color: #030303;
+}
+
+#KeepConnected {
+
+
+  color: #030303;
+}
+
+#email {
+  width: 138px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  font-family: 'Merriweather';
+  font-weight: Regular;
+  opacity: 1;
+  text-align: left;
+}
+
+#EnterEmail {
+  width: 320px;
+  color: rgba(3,3,3,0.5);
+  position: absolute;
+  font-family: 'Merriweather';
+  font-weight: Regular;
+  opacity: 1;
+  text-align: left;
+}
+
+#password {
+  width: 138px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  font-family: 'Merriweather';
+  font-weight: 'Regular';
+  opacity: 1;
+  text-align: left;
+}
+
+#EnterPassword {
+  width: 320px;
+  color: rgba(3,3,3,0.5);
+  position: absolute;
+  font-family: 'Merriweather';
+  font-weight: 'Regular';
+  opacity: 1;
+  text-align: left;
+}
+
+#LogInNowBtn {
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: Black;
+  position: absolute;
+  top: 420px;
+  font-family: 'Merriweather';
+  font-weight: Black;
+  opacity: 1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#CreateAccountBtn {
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: Black;
+  position: absolute;
+  top: 420px;
+  left: 735px;
+  font-family: 'Merriweather';
+  font-weight: Black;
+  opacity: 1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#CheckBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 465px;
+  background: #D9D9D9;
+  border: 1px solid #000000;
+}
+
+#RememberMe {
+  position: absolute;
+  width: 191px;
+  height: 24px;
+
+  top: 464px;
+  left: 590px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 25px;
+  letter-spacing: -0.333333px;
+
+  color: #030303;
+}
+
+#ForgotPassword {
+  position: absolute;
+  width: 237px;
+  height: 20px;
+  left: 785px;
+  top: 464px;
+
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 25px;
+  letter-spacing: -0.333333px;
+
+  color: #030303;
+}
+
+#JoinWith {
+  width: 249px;
+  color: rgba(3,3,3,0.5);
+  position: absolute;
+  top: 480px;
+  left: 570px;
+  font-family: 'Merriweather';
+  font-weight: 'Regular';
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+}
+
+#googleIcon {
+  position: absolute;
+  left: 570px;
+  top: 530px;
+}
+
+#facebookIcon {
+  position: absolute;
+  left: 595px;
+  top: 530px;
+}
+
+#twitterIcon {
+  position: absolute;
+  left: 618px;
+  top: 526px;
+}

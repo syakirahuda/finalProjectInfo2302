@@ -1,0 +1,413 @@
+
+body {
+  font-size: 14px;
+}
+a{ color : black;}
+.border {
+  width: 100%;
+  height: 1122px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.leviosa {
+  width: 222px;
+  color: rgba(15,70,43,1);
+  position: absolute;
+  top: 66px;
+  left: 105px;
+  font-family: Lobster;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.contact {
+  width: 341px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 138px;
+  left: 801px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.home {
+  width: 40px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 27px;
+  left: 609px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.order {
+  width: 69px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 27px;
+  left: 703px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.contactLeviosa {
+  width: 341px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 138px;
+  left: 801px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.contact {
+  width: 71px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 27px;
+  left: 781px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.cart {
+  width: 71px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 27px;
+  left: 1274px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.login {
+  width: 71px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 27px;
+  left: 1185px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.owner {
+  width: 564px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 214px;
+  left: 801px;
+  font-family: Merriweather;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.connect {
+  width: 80px;
+  color: rgba(193,193,193,1);
+  position: absolute;
+  top: 930px;
+  left: 465px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.resources {
+  width: 80px;
+  color: rgba(193,193,193,1);
+  position: absolute;
+  top: 930px;
+  left: 681px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.about {
+  width: 80px;
+  color: rgba(193,193,193,1);
+  position: absolute;
+  top: 930px;
+  left: 896px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.facebook {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 994px;
+  left: 466px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.pinterest {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1024px;
+  left: 466px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.youtube {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1054px;
+  left: 466px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.instagram {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 964px;
+  left: 466px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.track {
+  width: 127px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 994px;
+  left: 681px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.faq {
+  width: 80px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1024px;
+  left: 681px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.privacy {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1054px;
+  left: 681px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.policy {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 964px;
+  left: 681px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.story {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 964px;
+  left: 896px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.careers {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 994px;
+  left: 896px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.press {
+  width: 100px;
+  color: rgba(3,3,3,1);
+  position: absolute;
+  top: 1024px;
+  left: 896px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.socmed {
+  width: 341px;
+  color: rgba(15,70,43,1);
+  position: absolute;
+  top: 643px;
+  left: 801px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.instagram1 {
+  width: 341px;
+  color: rgba(15,70,43,1);
+  position: absolute;
+  top: 732px;
+  left: 870px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.facebook1 {
+  width: 341px;
+  color: rgba(15,70,43,1);
+  position: absolute;
+  top: 826px;
+  left: 870px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.fbpic {
+  width: 52px;
+  height: 52px;
+  background: url("facebook1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 810px;
+  left: 801px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  overflow: hidden;
+}
+.instapic {
+  width: 52px;
+  height: 52px;
+  background: url("instagram.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 720px;
+  left: 801px;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  overflow: hidden;
+}
+.salad1 {
+  width: 442px;
+  height: 622px;
+  background: url("salad1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 214px;
+  left: 303px;
+  overflow: hidden;
+}
+.salad2 {
+  width: 170px;
+  height: 234px;
+  background: url("salad2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 219px;
+  left: 77px;
+  overflow: hidden;
+}
+.salad3 {
+  width: 170px;
+  height: 206px;
+  background: url("salad3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 630px;
+  left: 77px;
+  overflow: hidden;
+}
+.salad4 {
+  width: 170px;
+  height: 146px;
+  background: url("salad4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 468px;
+  left: 77px;
+  overflow: hidden;
+}
